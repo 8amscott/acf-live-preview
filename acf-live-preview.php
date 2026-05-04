@@ -12,6 +12,15 @@
 
 if (!defined('ABSPATH')) exit;
 
+// Auto-update from GitHub releases
+require __DIR__ . '/plugin-update-checker/plugin-update-checker.php';
+$acfLivePreviewUpdater = YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
+    'https://github.com/8amscott/acf-live-preview',
+    __FILE__,
+    'acf-live-preview'
+);
+$acfLivePreviewUpdater->setBranch('main');
+
 add_action('admin_enqueue_scripts', function($hook) {
     if ($hook !== 'post.php' && $hook !== 'post-new.php') return;
     if (!class_exists('ACF')) return;
