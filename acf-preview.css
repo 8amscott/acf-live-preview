@@ -3,14 +3,17 @@
     bottom: 20px;
     right: 20px;
     z-index: 99999;
-    padding: 8px 16px;
+    padding: 0 14px;
     background: #3858e9;
     color: #fff;
     border: 1px solid #3858e9;
     border-radius: 2px;
     cursor: pointer;
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 38px;
+    min-height: 40px;
+    box-sizing: border-box;
     transition: .2s;
 }
 .acf-preview-toggle:hover {
