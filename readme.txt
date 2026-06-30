@@ -3,7 +3,7 @@ Contributors: 8amcreative
 Tags: acf, advanced custom fields, preview, live preview, classic editor
 Requires at least: 5.0
 Tested up to: 6.7
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -31,6 +31,9 @@ Features:
 Requires Advanced Custom Fields (free or Pro) to be active.
 
 == Changelog ==
+
+= 1.0.2 =
+* Changed: Preview button restyled to match WordPress v7.
 
 = 1.0.1 =
 * Added: Auto-update from GitHub releases via plugin-update-checker.

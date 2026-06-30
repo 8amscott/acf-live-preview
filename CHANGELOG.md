@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 — 2026-06-30
+
+### Changed
+- Preview button restyled to match WordPress v7.
+
 ## 1.0.1 — 2026-05-04
 
 ### Added

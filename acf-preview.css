@@ -4,17 +4,18 @@
     right: 20px;
     z-index: 99999;
     padding: 8px 16px;
-    background: #2271b1;
+    background: #3858e9;
     color: #fff;
-    border: 1px solid #2271b1;
-    border-radius: 4px;
+    border: 1px solid #3858e9;
+    border-radius: 2px;
     cursor: pointer;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 600;
     transition: .2s;
 }
 .acf-preview-toggle:hover {
-    background: #135e96;
+    background: #2145e6;
+    border-color: #2145e6;
 }
 .acf-preview-panel {
     display: none;

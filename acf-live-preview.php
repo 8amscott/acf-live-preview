@@ -2,7 +2,7 @@
 /**
  * Plugin Name: ACF Live Preview
  * Description: Adds a draggable, resizable live preview panel to the WordPress classic editor for ACF-powered pages.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: 8AM Creative
  * Author URI: https://8amcreative.com
  * License: GPL v2 or later
